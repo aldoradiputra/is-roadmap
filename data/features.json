@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "lastUpdated": "2026-05-03",
   "nodes": [
     {
@@ -10,7 +10,9 @@
       "status": "planned",
       "phase": 0,
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CORE",
+      "milestone": "v1.0"
     },
     {
       "id": "search",
@@ -21,7 +23,9 @@
       "phase": 1,
       "parent": "core",
       "x": -200,
-      "y": -120
+      "y": -120,
+      "code": "IS-PLAT-001",
+      "milestone": "v1.0"
     },
     {
       "id": "access-rights",
@@ -32,7 +36,9 @@
       "phase": 1,
       "parent": "core",
       "x": 200,
-      "y": -120
+      "y": -120,
+      "code": "IS-PLAT-002",
+      "milestone": "v1.0"
     },
     {
       "id": "update-system",
@@ -43,7 +49,9 @@
       "phase": 1,
       "parent": "core",
       "x": 200,
-      "y": 120
+      "y": 120,
+      "code": "IS-PLAT-003",
+      "milestone": "v1.0"
     },
     {
       "id": "roadmap-map",
@@ -54,7 +62,9 @@
       "phase": 1,
       "parent": "core",
       "x": -200,
-      "y": 120
+      "y": 120,
+      "code": "IS-PLAT-004",
+      "milestone": "v1.0"
     },
     {
       "id": "hr",
@@ -65,7 +75,9 @@
       "phase": 1,
       "parent": "core",
       "x": -420,
-      "y": -220
+      "y": -220,
+      "code": "IS-HR",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-employees",
@@ -76,7 +88,9 @@
       "phase": 1,
       "parent": "hr",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-EMP",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-employees-profiles",
@@ -87,7 +101,9 @@
       "phase": 1,
       "parent": "hr-employees",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-EMP-001",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-employees-orgchart",
@@ -98,7 +114,9 @@
       "phase": 1,
       "parent": "hr-employees",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-EMP-002",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-employees-onboarding",
@@ -109,7 +127,9 @@
       "phase": 1,
       "parent": "hr-employees",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-EMP-003",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-employees-skills",
@@ -120,7 +140,9 @@
       "phase": 1,
       "parent": "hr-employees",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-EMP-004",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-recruitment",
@@ -131,7 +153,9 @@
       "phase": 1,
       "parent": "hr",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-REC",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-recruitment-ats",
@@ -142,7 +166,9 @@
       "phase": 1,
       "parent": "hr-recruitment",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-REC-001",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-recruitment-ocr",
@@ -153,7 +179,9 @@
       "phase": 1,
       "parent": "hr-recruitment",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-REC-002",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-recruitment-jobs",
@@ -164,7 +192,9 @@
       "phase": 1,
       "parent": "hr-recruitment",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-REC-003",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-recruitment-interviews",
@@ -175,7 +205,9 @@
       "phase": 1,
       "parent": "hr-recruitment",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-REC-004",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-payroll",
@@ -186,7 +218,9 @@
       "phase": 1,
       "parent": "hr",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-PAY",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-payroll-salary",
@@ -197,7 +231,9 @@
       "phase": 1,
       "parent": "hr-payroll",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-PAY-001",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-payroll-bpjs",
@@ -208,7 +244,9 @@
       "phase": 1,
       "parent": "hr-payroll",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-PAY-002",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-payroll-tax",
@@ -219,7 +257,9 @@
       "phase": 1,
       "parent": "hr-payroll",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-PAY-003",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-payroll-payslips",
@@ -230,7 +270,9 @@
       "phase": 1,
       "parent": "hr-payroll",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-PAY-004",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-attendance",
@@ -241,7 +283,9 @@
       "phase": 1,
       "parent": "hr",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-ATT",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-attendance-clock",
@@ -252,7 +296,9 @@
       "phase": 1,
       "parent": "hr-attendance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-ATT-001",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-attendance-leave",
@@ -263,7 +309,9 @@
       "phase": 1,
       "parent": "hr-attendance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-ATT-002",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-attendance-overtime",
@@ -274,7 +322,9 @@
       "phase": 1,
       "parent": "hr-attendance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-ATT-003",
+      "milestone": "v1.0"
     },
     {
       "id": "hr-appraisals",
@@ -285,7 +335,9 @@
       "phase": 2,
       "parent": "hr",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-APR",
+      "milestone": "v2.0"
     },
     {
       "id": "hr-appraisals-scheduling",
@@ -296,7 +348,9 @@
       "phase": 2,
       "parent": "hr-appraisals",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-APR-001",
+      "milestone": "v2.0"
     },
     {
       "id": "hr-appraisals-360",
@@ -307,7 +361,9 @@
       "phase": 2,
       "parent": "hr-appraisals",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-APR-002",
+      "milestone": "v2.0"
     },
     {
       "id": "hr-appraisals-goals",
@@ -318,7 +374,9 @@
       "phase": 2,
       "parent": "hr-appraisals",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HR-APR-003",
+      "milestone": "v2.0"
     },
     {
       "id": "finance",
@@ -329,7 +387,9 @@
       "phase": 1,
       "parent": "core",
       "x": -140,
-      "y": -320
+      "y": -320,
+      "code": "IS-FIN",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-accounting",
@@ -340,7 +400,9 @@
       "phase": 1,
       "parent": "finance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-ACC",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-accounting-coa",
@@ -351,7 +413,9 @@
       "phase": 1,
       "parent": "finance-accounting",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-ACC-001",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-accounting-journals",
@@ -362,7 +426,9 @@
       "phase": 1,
       "parent": "finance-accounting",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-ACC-002",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-accounting-reports",
@@ -373,7 +439,9 @@
       "phase": 1,
       "parent": "finance-accounting",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-ACC-003",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-accounting-multicurrency",
@@ -384,7 +452,9 @@
       "phase": 1,
       "parent": "finance-accounting",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-ACC-004",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-tax",
@@ -395,7 +465,9 @@
       "phase": 1,
       "parent": "finance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-TAX",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-tax-espt",
@@ -406,7 +478,9 @@
       "phase": 1,
       "parent": "finance-tax",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-TAX-001",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-tax-vat",
@@ -417,7 +491,9 @@
       "phase": 1,
       "parent": "finance-tax",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-TAX-002",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-tax-fiscal",
@@ -428,7 +504,9 @@
       "phase": 1,
       "parent": "finance-tax",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-TAX-003",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-invoicing",
@@ -439,7 +517,9 @@
       "phase": 1,
       "parent": "finance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-INVC",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-invoicing-sales",
@@ -450,7 +530,9 @@
       "phase": 1,
       "parent": "finance-invoicing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-INVC-001",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-invoicing-purchase",
@@ -461,7 +543,9 @@
       "phase": 1,
       "parent": "finance-invoicing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-INVC-002",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-invoicing-payments",
@@ -472,7 +556,9 @@
       "phase": 1,
       "parent": "finance-invoicing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-INVC-003",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-expenses",
@@ -483,7 +569,9 @@
       "phase": 1,
       "parent": "finance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-EXP",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-expenses-entry",
@@ -494,7 +582,9 @@
       "phase": 1,
       "parent": "finance-expenses",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-EXP-001",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-expenses-ocr",
@@ -505,7 +595,9 @@
       "phase": 1,
       "parent": "finance-expenses",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-EXP-002",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-expenses-approval",
@@ -516,7 +608,9 @@
       "phase": 1,
       "parent": "finance-expenses",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-EXP-003",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-assets",
@@ -527,7 +621,9 @@
       "phase": 1,
       "parent": "finance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-AST",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-assets-register",
@@ -538,7 +634,9 @@
       "phase": 1,
       "parent": "finance-assets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-AST-001",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-assets-depreciation",
@@ -549,7 +647,9 @@
       "phase": 1,
       "parent": "finance-assets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-AST-002",
+      "milestone": "v1.0"
     },
     {
       "id": "finance-budgets",
@@ -560,7 +660,9 @@
       "phase": 2,
       "parent": "finance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-BGT",
+      "milestone": "v2.0"
     },
     {
       "id": "finance-budgets-planning",
@@ -571,7 +673,9 @@
       "phase": 2,
       "parent": "finance-budgets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-BGT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "finance-budgets-monitoring",
@@ -582,7 +686,9 @@
       "phase": 2,
       "parent": "finance-budgets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FIN-BGT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "sales",
@@ -593,7 +699,9 @@
       "phase": 1,
       "parent": "core",
       "x": 0,
-      "y": -420
+      "y": -420,
+      "code": "IS-SALES",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-quotations",
@@ -604,7 +712,9 @@
       "phase": 1,
       "parent": "sales",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-QUO",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-quotations-templates",
@@ -615,7 +725,9 @@
       "phase": 1,
       "parent": "sales-quotations",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-QUO-001",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-quotations-esign",
@@ -626,7 +738,9 @@
       "phase": 1,
       "parent": "sales-quotations",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-QUO-002",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-quotations-portal",
@@ -637,7 +751,9 @@
       "phase": 1,
       "parent": "sales-quotations",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-QUO-003",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-pricing",
@@ -648,7 +764,9 @@
       "phase": 1,
       "parent": "sales",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-PRC",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-pricing-pricelists",
@@ -659,7 +777,9 @@
       "phase": 1,
       "parent": "sales-pricing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-PRC-001",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-pricing-discounts",
@@ -670,7 +790,9 @@
       "phase": 1,
       "parent": "sales-pricing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-PRC-002",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-pricing-loyalty",
@@ -681,7 +803,9 @@
       "phase": 2,
       "parent": "sales-pricing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-PRC-003",
+      "milestone": "v2.0"
     },
     {
       "id": "sales-pos",
@@ -692,7 +816,9 @@
       "phase": 1,
       "parent": "sales",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-POS",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-pos-session",
@@ -703,7 +829,9 @@
       "phase": 1,
       "parent": "sales-pos",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-POS-001",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-pos-payments",
@@ -714,7 +842,9 @@
       "phase": 1,
       "parent": "sales-pos",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-POS-002",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-pos-offline",
@@ -725,7 +855,9 @@
       "phase": 1,
       "parent": "sales-pos",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-POS-003",
+      "milestone": "v1.0"
     },
     {
       "id": "sales-pos-restaurant",
@@ -736,7 +868,9 @@
       "phase": 2,
       "parent": "sales-pos",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SALES-POS-004",
+      "milestone": "v2.0"
     },
     {
       "id": "crm",
@@ -747,7 +881,9 @@
       "phase": 1,
       "parent": "core",
       "x": 140,
-      "y": -320
+      "y": -320,
+      "code": "IS-CRM",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-pipeline",
@@ -758,7 +894,9 @@
       "phase": 1,
       "parent": "crm",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-PPL",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-pipeline-deals",
@@ -769,7 +907,9 @@
       "phase": 1,
       "parent": "crm-pipeline",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-PPL-001",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-pipeline-stages",
@@ -780,7 +920,9 @@
       "phase": 1,
       "parent": "crm-pipeline",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-PPL-002",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-pipeline-scoring",
@@ -791,7 +933,9 @@
       "phase": 2,
       "parent": "crm-pipeline",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-PPL-003",
+      "milestone": "v2.0"
     },
     {
       "id": "crm-contacts",
@@ -802,7 +946,9 @@
       "phase": 1,
       "parent": "crm",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-CNT",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-contacts-persons",
@@ -813,7 +959,9 @@
       "phase": 1,
       "parent": "crm-contacts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-CNT-001",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-contacts-companies",
@@ -824,7 +972,9 @@
       "phase": 1,
       "parent": "crm-contacts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-CNT-002",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-activities",
@@ -835,7 +985,9 @@
       "phase": 1,
       "parent": "crm",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-ACT",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-activities-tasks",
@@ -846,7 +998,9 @@
       "phase": 1,
       "parent": "crm-activities",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-ACT-001",
+      "milestone": "v1.0"
     },
     {
       "id": "crm-activities-log",
@@ -857,7 +1011,9 @@
       "phase": 1,
       "parent": "crm-activities",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CRM-ACT-002",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement",
@@ -868,7 +1024,9 @@
       "phase": 1,
       "parent": "core",
       "x": 420,
-      "y": -220
+      "y": -220,
+      "code": "IS-PROC",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement-po",
@@ -879,7 +1037,9 @@
       "phase": 1,
       "parent": "procurement",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROC-PO",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement-po-create",
@@ -890,7 +1050,9 @@
       "phase": 1,
       "parent": "procurement-po",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROC-PO-001",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement-po-approval",
@@ -901,7 +1063,9 @@
       "phase": 1,
       "parent": "procurement-po",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROC-PO-002",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement-po-landed",
@@ -912,7 +1076,9 @@
       "phase": 1,
       "parent": "procurement-po",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROC-PO-003",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement-vendors",
@@ -923,7 +1089,9 @@
       "phase": 1,
       "parent": "procurement",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROC-VND",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement-vendors-profiles",
@@ -934,7 +1102,9 @@
       "phase": 1,
       "parent": "procurement-vendors",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROC-VND-001",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement-vendors-rfq",
@@ -945,7 +1115,9 @@
       "phase": 1,
       "parent": "procurement-vendors",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROC-VND-002",
+      "milestone": "v1.0"
     },
     {
       "id": "procurement-vendors-tenders",
@@ -956,7 +1128,9 @@
       "phase": 1,
       "parent": "procurement-vendors",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROC-VND-003",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory",
@@ -967,7 +1141,9 @@
       "phase": 1,
       "parent": "core",
       "x": 500,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-stock",
@@ -978,7 +1154,9 @@
       "phase": 1,
       "parent": "inventory",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-STK",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-stock-valuation",
@@ -989,7 +1167,9 @@
       "phase": 1,
       "parent": "inventory-stock",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-STK-001",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-stock-alerts",
@@ -1000,7 +1180,9 @@
       "phase": 1,
       "parent": "inventory-stock",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-STK-002",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-stock-lots",
@@ -1011,7 +1193,9 @@
       "phase": 1,
       "parent": "inventory-stock",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-STK-003",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-warehouse",
@@ -1022,7 +1206,9 @@
       "phase": 1,
       "parent": "inventory",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-WHS",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-warehouse-locations",
@@ -1033,7 +1219,9 @@
       "phase": 1,
       "parent": "inventory-warehouse",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-WHS-001",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-warehouse-transfers",
@@ -1044,7 +1232,9 @@
       "phase": 1,
       "parent": "inventory-warehouse",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-WHS-002",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-opname",
@@ -1055,7 +1245,9 @@
       "phase": 1,
       "parent": "inventory",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-OPN",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-opname-count",
@@ -1066,7 +1258,9 @@
       "phase": 1,
       "parent": "inventory-opname",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-OPN-001",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-barcode",
@@ -1077,7 +1271,9 @@
       "phase": 1,
       "parent": "inventory",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-BAR",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-barcode-scanning",
@@ -1088,7 +1284,9 @@
       "phase": 1,
       "parent": "inventory-barcode",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-BAR-001",
+      "milestone": "v1.0"
     },
     {
       "id": "inventory-barcode-gs1",
@@ -1099,7 +1297,9 @@
       "phase": 1,
       "parent": "inventory-barcode",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-INV-BAR-002",
+      "milestone": "v1.0"
     },
     {
       "id": "projects",
@@ -1110,7 +1310,9 @@
       "phase": 1,
       "parent": "core",
       "x": 420,
-      "y": 220
+      "y": 220,
+      "code": "IS-PROJ",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-tasks",
@@ -1121,7 +1323,9 @@
       "phase": 1,
       "parent": "projects",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-TSK",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-tasks-board",
@@ -1132,7 +1336,9 @@
       "phase": 1,
       "parent": "projects-tasks",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-TSK-001",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-tasks-subtasks",
@@ -1143,7 +1349,9 @@
       "phase": 1,
       "parent": "projects-tasks",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-TSK-002",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-tasks-recurring",
@@ -1154,7 +1362,9 @@
       "phase": 1,
       "parent": "projects-tasks",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-TSK-003",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-gantt",
@@ -1165,7 +1375,9 @@
       "phase": 1,
       "parent": "projects",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-GNT",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-gantt-view",
@@ -1176,7 +1388,9 @@
       "phase": 1,
       "parent": "projects-gantt",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-GNT-001",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-gantt-milestones",
@@ -1187,7 +1401,9 @@
       "phase": 1,
       "parent": "projects-gantt",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-GNT-002",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-time",
@@ -1198,7 +1414,9 @@
       "phase": 1,
       "parent": "projects",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-TME",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-time-timesheets",
@@ -1209,7 +1427,9 @@
       "phase": 1,
       "parent": "projects-time",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-TME-001",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-time-billing",
@@ -1220,7 +1440,9 @@
       "phase": 1,
       "parent": "projects-time",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-TME-002",
+      "milestone": "v1.0"
     },
     {
       "id": "projects-time-profitability",
@@ -1231,7 +1453,9 @@
       "phase": 2,
       "parent": "projects-time",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PROJ-TME-003",
+      "milestone": "v2.0"
     },
     {
       "id": "documents",
@@ -1242,7 +1466,9 @@
       "phase": 1,
       "parent": "core",
       "x": 140,
-      "y": 320
+      "y": 320,
+      "code": "IS-DOC",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-files",
@@ -1253,7 +1479,9 @@
       "phase": 1,
       "parent": "documents",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-FLS",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-files-storage",
@@ -1264,7 +1492,9 @@
       "phase": 1,
       "parent": "documents-files",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-FLS-001",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-files-versions",
@@ -1275,7 +1505,9 @@
       "phase": 1,
       "parent": "documents-files",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-FLS-002",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-files-ocr",
@@ -1286,7 +1518,9 @@
       "phase": 1,
       "parent": "documents-files",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-FLS-003",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-contracts",
@@ -1297,7 +1531,9 @@
       "phase": 1,
       "parent": "documents",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-CTR",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-contracts-templates",
@@ -1308,7 +1544,9 @@
       "phase": 1,
       "parent": "documents-contracts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-CTR-001",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-contracts-esign",
@@ -1319,7 +1557,9 @@
       "phase": 1,
       "parent": "documents-contracts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-CTR-002",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-contracts-envelopes",
@@ -1330,7 +1570,9 @@
       "phase": 1,
       "parent": "documents-contracts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-CTR-003",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-ai",
@@ -1341,7 +1583,9 @@
       "phase": 1,
       "parent": "documents",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-AIS",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-ai-generator",
@@ -1352,7 +1596,9 @@
       "phase": 1,
       "parent": "documents-ai",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-AIS-001",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-ai-pdf",
@@ -1363,7 +1609,9 @@
       "phase": 1,
       "parent": "documents-ai",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-AIS-002",
+      "milestone": "v1.0"
     },
     {
       "id": "chat",
@@ -1374,7 +1622,9 @@
       "phase": 1,
       "parent": "core",
       "x": -140,
-      "y": 320
+      "y": 320,
+      "code": "IS-CHAT",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-messaging",
@@ -1385,7 +1635,9 @@
       "phase": 1,
       "parent": "chat",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-MSG",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-messaging-dm",
@@ -1396,7 +1648,9 @@
       "phase": 1,
       "parent": "chat-messaging",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-MSG-001",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-messaging-channels",
@@ -1407,7 +1661,9 @@
       "phase": 1,
       "parent": "chat-messaging",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-MSG-002",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-messaging-chatter",
@@ -1418,7 +1674,9 @@
       "phase": 1,
       "parent": "chat-messaging",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-MSG-003",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-notifications",
@@ -1429,7 +1687,9 @@
       "phase": 1,
       "parent": "chat",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-NTF",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-notifications-smart",
@@ -1440,7 +1700,9 @@
       "phase": 1,
       "parent": "chat-notifications",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-NTF-001",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-notifications-activities",
@@ -1451,7 +1713,9 @@
       "phase": 1,
       "parent": "chat-notifications",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-NTF-002",
+      "milestone": "v1.0"
     },
     {
       "id": "email",
@@ -1462,7 +1726,9 @@
       "phase": 2,
       "parent": "core",
       "x": -420,
-      "y": 220
+      "y": 220,
+      "code": "IS-EMAIL",
+      "milestone": "v2.0"
     },
     {
       "id": "email-client",
@@ -1473,7 +1739,9 @@
       "phase": 2,
       "parent": "email",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CLI",
+      "milestone": "v2.0"
     },
     {
       "id": "email-client-inbox",
@@ -1484,7 +1752,9 @@
       "phase": 2,
       "parent": "email-client",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CLI-001",
+      "milestone": "v2.0"
     },
     {
       "id": "email-client-aliases",
@@ -1495,7 +1765,9 @@
       "phase": 2,
       "parent": "email-client",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CLI-002",
+      "milestone": "v2.0"
     },
     {
       "id": "email-client-templates",
@@ -1506,7 +1778,9 @@
       "phase": 2,
       "parent": "email-client",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CLI-003",
+      "milestone": "v2.0"
     },
     {
       "id": "email-calendar",
@@ -1517,7 +1791,9 @@
       "phase": 2,
       "parent": "email",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CAL",
+      "milestone": "v2.0"
     },
     {
       "id": "email-calendar-events",
@@ -1528,7 +1804,9 @@
       "phase": 2,
       "parent": "email-calendar",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CAL-001",
+      "milestone": "v2.0"
     },
     {
       "id": "email-calendar-sync",
@@ -1539,7 +1817,9 @@
       "phase": 2,
       "parent": "email-calendar",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CAL-002",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings",
@@ -1550,7 +1830,9 @@
       "phase": 2,
       "parent": "core",
       "x": -500,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-video",
@@ -1561,7 +1843,9 @@
       "phase": 2,
       "parent": "meetings",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-VID",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-video-gmeet",
@@ -1572,7 +1856,9 @@
       "phase": 2,
       "parent": "meetings-video",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-VID-001",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-video-agenda",
@@ -1583,7 +1869,9 @@
       "phase": 2,
       "parent": "meetings-video",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-VID-002",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-appointments",
@@ -1594,7 +1882,9 @@
       "phase": 2,
       "parent": "meetings",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-APT",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-appointments-booking",
@@ -1605,7 +1895,9 @@
       "phase": 2,
       "parent": "meetings-appointments",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-APT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-appointments-payment",
@@ -1616,7 +1908,9 @@
       "phase": 2,
       "parent": "meetings-appointments",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-APT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "omnichannel",
@@ -1627,7 +1921,9 @@
       "phase": 2,
       "parent": "core",
       "x": -560,
-      "y": -280
+      "y": -280,
+      "code": "IS-OMNI",
+      "milestone": "v2.0"
     },
     {
       "id": "omnichannel-inbox",
@@ -1638,7 +1934,9 @@
       "phase": 2,
       "parent": "omnichannel",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OMNI-INB",
+      "milestone": "v2.0"
     },
     {
       "id": "omnichannel-inbox-whatsapp",
@@ -1649,7 +1947,9 @@
       "phase": 2,
       "parent": "omnichannel-inbox",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OMNI-INB-001",
+      "milestone": "v2.0"
     },
     {
       "id": "omnichannel-inbox-livechat",
@@ -1660,7 +1960,9 @@
       "phase": 2,
       "parent": "omnichannel-inbox",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OMNI-INB-002",
+      "milestone": "v2.0"
     },
     {
       "id": "omnichannel-inbox-ratings",
@@ -1671,7 +1973,9 @@
       "phase": 2,
       "parent": "omnichannel-inbox",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OMNI-INB-003",
+      "milestone": "v2.0"
     },
     {
       "id": "omnichannel-chatbots",
@@ -1682,7 +1986,9 @@
       "phase": 2,
       "parent": "omnichannel",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OMNI-CBT",
+      "milestone": "v2.0"
     },
     {
       "id": "omnichannel-chatbots-scripts",
@@ -1693,7 +1999,9 @@
       "phase": 2,
       "parent": "omnichannel-chatbots",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OMNI-CBT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "omnichannel-chatbots-ai",
@@ -1704,7 +2012,9 @@
       "phase": 3,
       "parent": "omnichannel-chatbots",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OMNI-CBT-002",
+      "milestone": "v3.0"
     },
     {
       "id": "workflow",
@@ -1715,7 +2025,9 @@
       "phase": 2,
       "parent": "core",
       "x": 560,
-      "y": -280
+      "y": -280,
+      "code": "IS-WF",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-automation",
@@ -1726,7 +2038,9 @@
       "phase": 2,
       "parent": "workflow",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-AUT",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-automation-rules",
@@ -1737,7 +2051,9 @@
       "phase": 2,
       "parent": "workflow-automation",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-AUT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-automation-webhooks",
@@ -1748,7 +2064,9 @@
       "phase": 2,
       "parent": "workflow-automation",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-AUT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-automation-scheduled",
@@ -1759,7 +2077,9 @@
       "phase": 2,
       "parent": "workflow-automation",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-AUT-003",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-approvals",
@@ -1770,7 +2090,9 @@
       "phase": 2,
       "parent": "workflow",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-APV",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-approvals-multilevel",
@@ -1781,7 +2103,9 @@
       "phase": 2,
       "parent": "workflow-approvals",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-APV-001",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-approvals-escalation",
@@ -1792,7 +2116,9 @@
       "phase": 2,
       "parent": "workflow-approvals",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-APV-002",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing",
@@ -1803,7 +2129,9 @@
       "phase": 2,
       "parent": "core",
       "x": 700,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-orders",
@@ -1814,7 +2142,9 @@
       "phase": 2,
       "parent": "manufacturing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-ORD",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-orders-bom",
@@ -1825,7 +2155,9 @@
       "phase": 2,
       "parent": "manufacturing-orders",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-ORD-001",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-orders-workcenter",
@@ -1836,7 +2168,9 @@
       "phase": 2,
       "parent": "manufacturing-orders",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-ORD-002",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-orders-subcontracting",
@@ -1847,7 +2181,9 @@
       "phase": 2,
       "parent": "manufacturing-orders",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-ORD-003",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-shopfloor",
@@ -1858,7 +2194,9 @@
       "phase": 2,
       "parent": "manufacturing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-SFL",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-shopfloor-control",
@@ -1869,7 +2207,9 @@
       "phase": 2,
       "parent": "manufacturing-shopfloor",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-SFL-001",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-shopfloor-oee",
@@ -1880,7 +2220,9 @@
       "phase": 2,
       "parent": "manufacturing-shopfloor",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-SFL-002",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-quality",
@@ -1891,7 +2233,9 @@
       "phase": 2,
       "parent": "manufacturing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-QLT",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-quality-points",
@@ -1902,7 +2246,9 @@
       "phase": 2,
       "parent": "manufacturing-quality",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-QLT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-quality-alerts",
@@ -1913,7 +2259,9 @@
       "phase": 2,
       "parent": "manufacturing-quality",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-QLT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-maintenance",
@@ -1924,7 +2272,9 @@
       "phase": 2,
       "parent": "manufacturing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-MNT",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-maintenance-requests",
@@ -1935,7 +2285,9 @@
       "phase": 2,
       "parent": "manufacturing-maintenance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-MNT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "manufacturing-maintenance-preventive",
@@ -1946,7 +2298,9 @@
       "phase": 2,
       "parent": "manufacturing-maintenance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MFG-MNT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "helpdesk",
@@ -1957,7 +2311,9 @@
       "phase": 2,
       "parent": "core",
       "x": 650,
-      "y": -350
+      "y": -350,
+      "code": "IS-HD",
+      "milestone": "v2.0"
     },
     {
       "id": "helpdesk-tickets",
@@ -1968,7 +2324,9 @@
       "phase": 2,
       "parent": "helpdesk",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HD-TKT",
+      "milestone": "v2.0"
     },
     {
       "id": "helpdesk-tickets-sla",
@@ -1979,7 +2337,9 @@
       "phase": 2,
       "parent": "helpdesk-tickets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HD-TKT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "helpdesk-tickets-portal",
@@ -1990,7 +2350,9 @@
       "phase": 2,
       "parent": "helpdesk-tickets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HD-TKT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "helpdesk-tickets-billing",
@@ -2001,7 +2363,9 @@
       "phase": 2,
       "parent": "helpdesk-tickets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HD-TKT-003",
+      "milestone": "v2.0"
     },
     {
       "id": "helpdesk-teams",
@@ -2012,7 +2376,9 @@
       "phase": 2,
       "parent": "helpdesk",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HD-TMS",
+      "milestone": "v2.0"
     },
     {
       "id": "helpdesk-teams-routing",
@@ -2023,7 +2389,9 @@
       "phase": 2,
       "parent": "helpdesk-teams",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HD-TMS-001",
+      "milestone": "v2.0"
     },
     {
       "id": "helpdesk-teams-ratings",
@@ -2034,7 +2402,9 @@
       "phase": 2,
       "parent": "helpdesk-teams",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-HD-TMS-002",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge",
@@ -2045,7 +2415,9 @@
       "phase": 2,
       "parent": "core",
       "x": 0,
-      "y": 620
+      "y": 620,
+      "code": "IS-KMS",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-articles",
@@ -2056,7 +2428,9 @@
       "phase": 2,
       "parent": "knowledge",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-ART",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-articles-editor",
@@ -2067,7 +2441,9 @@
       "phase": 2,
       "parent": "knowledge-articles",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-ART-001",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-articles-collaboration",
@@ -2078,7 +2454,9 @@
       "phase": 2,
       "parent": "knowledge-articles",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-ART-002",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-articles-permissions",
@@ -2089,7 +2467,9 @@
       "phase": 2,
       "parent": "knowledge-articles",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-ART-003",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-templates",
@@ -2100,7 +2480,9 @@
       "phase": 2,
       "parent": "knowledge",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-TPL",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-templates-reuse",
@@ -2111,7 +2493,9 @@
       "phase": 2,
       "parent": "knowledge-templates",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-TPL-001",
+      "milestone": "v2.0"
     },
     {
       "id": "planning",
@@ -2122,7 +2506,9 @@
       "phase": 2,
       "parent": "core",
       "x": 700,
-      "y": 350
+      "y": 350,
+      "code": "IS-PLAN",
+      "milestone": "v2.0"
     },
     {
       "id": "planning-shifts",
@@ -2133,7 +2519,9 @@
       "phase": 2,
       "parent": "planning",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PLAN-SFT",
+      "milestone": "v2.0"
     },
     {
       "id": "planning-shifts-gantt",
@@ -2144,7 +2532,9 @@
       "phase": 2,
       "parent": "planning-shifts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PLAN-SFT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "planning-shifts-roles",
@@ -2155,7 +2545,9 @@
       "phase": 2,
       "parent": "planning-shifts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PLAN-SFT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "planning-shifts-publish",
@@ -2166,7 +2558,9 @@
       "phase": 2,
       "parent": "planning-shifts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PLAN-SFT-003",
+      "milestone": "v2.0"
     },
     {
       "id": "fleet",
@@ -2177,7 +2571,9 @@
       "phase": 2,
       "parent": "core",
       "x": 650,
-      "y": 600
+      "y": 600,
+      "code": "IS-FLEET",
+      "milestone": "v2.0"
     },
     {
       "id": "fleet-vehicles",
@@ -2188,7 +2584,9 @@
       "phase": 2,
       "parent": "fleet",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FLEET-VHL",
+      "milestone": "v2.0"
     },
     {
       "id": "fleet-vehicles-registry",
@@ -2199,7 +2597,9 @@
       "phase": 2,
       "parent": "fleet-vehicles",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FLEET-VHL-001",
+      "milestone": "v2.0"
     },
     {
       "id": "fleet-vehicles-contracts",
@@ -2210,7 +2610,9 @@
       "phase": 2,
       "parent": "fleet-vehicles",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FLEET-VHL-002",
+      "milestone": "v2.0"
     },
     {
       "id": "fleet-service",
@@ -2221,7 +2623,9 @@
       "phase": 2,
       "parent": "fleet",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FLEET-SVC",
+      "milestone": "v2.0"
     },
     {
       "id": "fleet-service-logs",
@@ -2232,7 +2636,9 @@
       "phase": 2,
       "parent": "fleet-service",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FLEET-SVC-001",
+      "milestone": "v2.0"
     },
     {
       "id": "fleet-service-fuel",
@@ -2243,7 +2649,9 @@
       "phase": 2,
       "parent": "fleet-service",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FLEET-SVC-002",
+      "milestone": "v2.0"
     },
     {
       "id": "events",
@@ -2254,7 +2662,9 @@
       "phase": 2,
       "parent": "core",
       "x": -650,
-      "y": 350
+      "y": 350,
+      "code": "IS-EVT",
+      "milestone": "v2.0"
     },
     {
       "id": "events-management",
@@ -2265,7 +2675,9 @@
       "phase": 2,
       "parent": "events",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EVT-MGT",
+      "milestone": "v2.0"
     },
     {
       "id": "events-management-creation",
@@ -2276,7 +2688,9 @@
       "phase": 2,
       "parent": "events-management",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EVT-MGT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "events-management-tickets",
@@ -2287,7 +2701,9 @@
       "phase": 2,
       "parent": "events-management",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EVT-MGT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "events-management-checkin",
@@ -2298,7 +2714,9 @@
       "phase": 2,
       "parent": "events-management",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EVT-MGT-003",
+      "milestone": "v2.0"
     },
     {
       "id": "events-agenda",
@@ -2309,7 +2727,9 @@
       "phase": 2,
       "parent": "events",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EVT-AGD",
+      "milestone": "v2.0"
     },
     {
       "id": "events-agenda-tracks",
@@ -2320,7 +2740,9 @@
       "phase": 2,
       "parent": "events-agenda",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EVT-AGD-001",
+      "milestone": "v2.0"
     },
     {
       "id": "events-agenda-sponsors",
@@ -2331,7 +2753,9 @@
       "phase": 2,
       "parent": "events-agenda",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EVT-AGD-002",
+      "milestone": "v2.0"
     },
     {
       "id": "surveys",
@@ -2342,7 +2766,9 @@
       "phase": 2,
       "parent": "core",
       "x": -700,
-      "y": 0
+      "y": 0,
+      "code": "IS-SRV",
+      "milestone": "v2.0"
     },
     {
       "id": "surveys-builder",
@@ -2353,7 +2779,9 @@
       "phase": 2,
       "parent": "surveys",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SRV-BLD",
+      "milestone": "v2.0"
     },
     {
       "id": "surveys-builder-questions",
@@ -2364,7 +2792,9 @@
       "phase": 2,
       "parent": "surveys-builder",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SRV-BLD-001",
+      "milestone": "v2.0"
     },
     {
       "id": "surveys-builder-scoring",
@@ -2375,7 +2805,9 @@
       "phase": 2,
       "parent": "surveys-builder",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SRV-BLD-002",
+      "milestone": "v2.0"
     },
     {
       "id": "surveys-builder-conditional",
@@ -2386,7 +2818,9 @@
       "phase": 2,
       "parent": "surveys-builder",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SRV-BLD-003",
+      "milestone": "v2.0"
     },
     {
       "id": "surveys-analysis",
@@ -2397,7 +2831,9 @@
       "phase": 2,
       "parent": "surveys",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SRV-ANL",
+      "milestone": "v2.0"
     },
     {
       "id": "surveys-analysis-reports",
@@ -2408,7 +2844,9 @@
       "phase": 2,
       "parent": "surveys-analysis",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SRV-ANL-001",
+      "milestone": "v2.0"
     },
     {
       "id": "subscriptions",
@@ -2419,7 +2857,9 @@
       "phase": 2,
       "parent": "core",
       "x": 350,
-      "y": 620
+      "y": 620,
+      "code": "IS-SUB",
+      "milestone": "v2.0"
     },
     {
       "id": "subscriptions-contracts",
@@ -2430,7 +2870,9 @@
       "phase": 2,
       "parent": "subscriptions",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SUB-CTR",
+      "milestone": "v2.0"
     },
     {
       "id": "subscriptions-contracts-products",
@@ -2441,7 +2883,9 @@
       "phase": 2,
       "parent": "subscriptions-contracts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SUB-CTR-001",
+      "milestone": "v2.0"
     },
     {
       "id": "subscriptions-contracts-billing",
@@ -2452,7 +2896,9 @@
       "phase": 2,
       "parent": "subscriptions-contracts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SUB-CTR-002",
+      "milestone": "v2.0"
     },
     {
       "id": "subscriptions-contracts-autopay",
@@ -2463,7 +2909,9 @@
       "phase": 2,
       "parent": "subscriptions-contracts",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SUB-CTR-003",
+      "milestone": "v2.0"
     },
     {
       "id": "subscriptions-analytics",
@@ -2474,7 +2922,9 @@
       "phase": 2,
       "parent": "subscriptions",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SUB-ANL",
+      "milestone": "v2.0"
     },
     {
       "id": "subscriptions-analytics-mrr",
@@ -2485,7 +2935,9 @@
       "phase": 2,
       "parent": "subscriptions-analytics",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SUB-ANL-001",
+      "milestone": "v2.0"
     },
     {
       "id": "subscriptions-analytics-churn",
@@ -2496,7 +2948,9 @@
       "phase": 2,
       "parent": "subscriptions-analytics",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-SUB-ANL-002",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing",
@@ -2507,7 +2961,9 @@
       "phase": 2,
       "parent": "core",
       "x": 0,
-      "y": -640
+      "y": -640,
+      "code": "IS-MKT",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-email",
@@ -2518,7 +2974,9 @@
       "phase": 2,
       "parent": "marketing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-EML",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-email-campaigns",
@@ -2529,7 +2987,9 @@
       "phase": 2,
       "parent": "marketing-email",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-EML-001",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-email-builder",
@@ -2540,7 +3000,9 @@
       "phase": 2,
       "parent": "marketing-email",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-EML-002",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-email-abtesting",
@@ -2551,7 +3013,9 @@
       "phase": 2,
       "parent": "marketing-email",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-EML-003",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-sms",
@@ -2562,7 +3026,9 @@
       "phase": 2,
       "parent": "marketing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-SMS",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-sms-campaigns",
@@ -2573,7 +3039,9 @@
       "phase": 2,
       "parent": "marketing-sms",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-SMS-001",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-social",
@@ -2584,7 +3052,9 @@
       "phase": 2,
       "parent": "marketing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-SOC",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-social-scheduling",
@@ -2595,7 +3065,9 @@
       "phase": 2,
       "parent": "marketing-social",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-SOC-001",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-social-analytics",
@@ -2606,7 +3078,9 @@
       "phase": 2,
       "parent": "marketing-social",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-SOC-002",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-automation",
@@ -2617,7 +3091,9 @@
       "phase": 2,
       "parent": "marketing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-AUT",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-automation-workflows",
@@ -2628,7 +3104,9 @@
       "phase": 2,
       "parent": "marketing-automation",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-AUT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "marketing-automation-segments",
@@ -2639,7 +3117,9 @@
       "phase": 2,
       "parent": "marketing-automation",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MKT-AUT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "ai-marketing",
@@ -2650,7 +3130,9 @@
       "phase": 3,
       "parent": "core",
       "x": 0,
-      "y": -500
+      "y": -500,
+      "code": "IS-AIM",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-marketing-campaigns",
@@ -2661,7 +3143,9 @@
       "phase": 3,
       "parent": "ai-marketing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIM-CPG",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-marketing-campaigns-generation",
@@ -2672,7 +3156,9 @@
       "phase": 3,
       "parent": "ai-marketing-campaigns",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIM-CPG-001",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-marketing-personalization",
@@ -2683,7 +3169,9 @@
       "phase": 3,
       "parent": "ai-marketing",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIM-PRS",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-marketing-personalization-content",
@@ -2694,7 +3182,9 @@
       "phase": 3,
       "parent": "ai-marketing-personalization",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIM-PRS-001",
+      "milestone": "v3.0"
     },
     {
       "id": "public-sector",
@@ -2705,7 +3195,9 @@
       "phase": 3,
       "parent": "core",
       "x": 560,
-      "y": 280
+      "y": 280,
+      "code": "IS-PUB",
+      "milestone": "v3.0"
     },
     {
       "id": "public-sector-identity",
@@ -2716,7 +3208,9 @@
       "phase": 3,
       "parent": "public-sector",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PUB-IDN",
+      "milestone": "v3.0"
     },
     {
       "id": "public-sector-identity-nik",
@@ -2727,7 +3221,9 @@
       "phase": 3,
       "parent": "public-sector-identity",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PUB-IDN-001",
+      "milestone": "v3.0"
     },
     {
       "id": "public-sector-identity-passport",
@@ -2738,7 +3234,9 @@
       "phase": 3,
       "parent": "public-sector-identity",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PUB-IDN-002",
+      "milestone": "v3.0"
     },
     {
       "id": "public-sector-compliance",
@@ -2749,7 +3247,9 @@
       "phase": 3,
       "parent": "public-sector",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PUB-CMP",
+      "milestone": "v3.0"
     },
     {
       "id": "public-sector-compliance-bumn",
@@ -2760,7 +3260,9 @@
       "phase": 3,
       "parent": "public-sector-compliance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PUB-CMP-001",
+      "milestone": "v3.0"
     },
     {
       "id": "public-sector-compliance-audit",
@@ -2771,7 +3273,9 @@
       "phase": 3,
       "parent": "public-sector-compliance",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PUB-CMP-002",
+      "milestone": "v3.0"
     },
     {
       "id": "b2b-network",
@@ -2782,7 +3286,9 @@
       "phase": 3,
       "parent": "core",
       "x": -560,
-      "y": 280
+      "y": 280,
+      "code": "IS-B2B",
+      "milestone": "v3.0"
     },
     {
       "id": "b2b-network-handshake",
@@ -2793,7 +3299,9 @@
       "phase": 3,
       "parent": "b2b-network",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-B2B-HND",
+      "milestone": "v3.0"
     },
     {
       "id": "b2b-network-handshake-connect",
@@ -2804,7 +3312,9 @@
       "phase": 3,
       "parent": "b2b-network-handshake",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-B2B-HND-001",
+      "milestone": "v3.0"
     },
     {
       "id": "b2b-network-handshake-sync",
@@ -2815,7 +3325,9 @@
       "phase": 3,
       "parent": "b2b-network-handshake",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-B2B-HND-002",
+      "milestone": "v3.0"
     },
     {
       "id": "b2b-network-trading",
@@ -2826,7 +3338,9 @@
       "phase": 3,
       "parent": "b2b-network",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-B2B-TRD",
+      "milestone": "v3.0"
     },
     {
       "id": "b2b-network-trading-orders",
@@ -2837,7 +3351,9 @@
       "phase": 3,
       "parent": "b2b-network-trading",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-B2B-TRD-001",
+      "milestone": "v3.0"
     },
     {
       "id": "b2b-network-trading-invoices",
@@ -2848,7 +3364,9 @@
       "phase": 3,
       "parent": "b2b-network-trading",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-B2B-TRD-002",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce",
@@ -2859,7 +3377,9 @@
       "phase": 3,
       "parent": "core",
       "x": 350,
-      "y": -700
+      "y": -700,
+      "code": "IS-ECOM",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-storefront",
@@ -2870,7 +3390,9 @@
       "phase": 3,
       "parent": "ecommerce",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-STF",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-storefront-catalog",
@@ -2881,7 +3403,9 @@
       "phase": 3,
       "parent": "ecommerce-storefront",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-STF-001",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-storefront-reviews",
@@ -2892,7 +3416,9 @@
       "phase": 3,
       "parent": "ecommerce-storefront",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-STF-002",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-storefront-abandoned",
@@ -2903,7 +3429,9 @@
       "phase": 3,
       "parent": "ecommerce-storefront",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-STF-003",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-checkout",
@@ -2914,7 +3442,9 @@
       "phase": 3,
       "parent": "ecommerce",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-CHK",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-checkout-payments",
@@ -2925,7 +3455,9 @@
       "phase": 3,
       "parent": "ecommerce-checkout",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-CHK-001",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-checkout-shipping",
@@ -2936,7 +3468,9 @@
       "phase": 3,
       "parent": "ecommerce-checkout",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-CHK-002",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-website",
@@ -2947,7 +3481,9 @@
       "phase": 3,
       "parent": "ecommerce",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-WEB",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-website-builder",
@@ -2958,7 +3494,9 @@
       "phase": 3,
       "parent": "ecommerce-website",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-WEB-001",
+      "milestone": "v3.0"
     },
     {
       "id": "ecommerce-website-seo",
@@ -2969,7 +3507,9 @@
       "phase": 3,
       "parent": "ecommerce-website",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-ECOM-WEB-002",
+      "milestone": "v3.0"
     },
     {
       "id": "studio",
@@ -2980,7 +3520,9 @@
       "phase": 3,
       "parent": "core",
       "x": -350,
-      "y": -700
+      "y": -700,
+      "code": "IS-STU",
+      "milestone": "v3.0"
     },
     {
       "id": "studio-customization",
@@ -2991,7 +3533,9 @@
       "phase": 3,
       "parent": "studio",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-STU-CST",
+      "milestone": "v3.0"
     },
     {
       "id": "studio-customization-fields",
@@ -3002,7 +3546,9 @@
       "phase": 3,
       "parent": "studio-customization",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-STU-CST-001",
+      "milestone": "v3.0"
     },
     {
       "id": "studio-customization-views",
@@ -3013,7 +3559,9 @@
       "phase": 3,
       "parent": "studio-customization",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-STU-CST-002",
+      "milestone": "v3.0"
     },
     {
       "id": "studio-customization-reports",
@@ -3024,7 +3572,9 @@
       "phase": 3,
       "parent": "studio-customization",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-STU-CST-003",
+      "milestone": "v3.0"
     },
     {
       "id": "studio-apps",
@@ -3035,7 +3585,9 @@
       "phase": 3,
       "parent": "studio",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-STU-APPS",
+      "milestone": "v3.0"
     },
     {
       "id": "studio-apps-models",
@@ -3046,7 +3598,9 @@
       "phase": 3,
       "parent": "studio-apps",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-STU-APPS-001",
+      "milestone": "v3.0"
     },
     {
       "id": "studio-apps-automation",
@@ -3057,7 +3611,9 @@
       "phase": 3,
       "parent": "studio-apps",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-STU-APPS-002",
+      "milestone": "v3.0"
     },
     {
       "id": "iot",
@@ -3068,7 +3624,9 @@
       "phase": 3,
       "parent": "core",
       "x": 800,
-      "y": -200
+      "y": -200,
+      "code": "IS-IOT",
+      "milestone": "v3.0"
     },
     {
       "id": "iot-devices",
@@ -3079,7 +3637,9 @@
       "phase": 3,
       "parent": "iot",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-IOT-DEV",
+      "milestone": "v3.0"
     },
     {
       "id": "iot-devices-scanners",
@@ -3090,7 +3650,9 @@
       "phase": 3,
       "parent": "iot-devices",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-IOT-DEV-001",
+      "milestone": "v3.0"
     },
     {
       "id": "iot-devices-printers",
@@ -3101,7 +3663,9 @@
       "phase": 3,
       "parent": "iot-devices",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-IOT-DEV-002",
+      "milestone": "v3.0"
     },
     {
       "id": "iot-devices-terminals",
@@ -3112,7 +3676,9 @@
       "phase": 3,
       "parent": "iot-devices",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-IOT-DEV-003",
+      "milestone": "v3.0"
     },
     {
       "id": "iot-devices-scales",
@@ -3123,7 +3689,9 @@
       "phase": 3,
       "parent": "iot-devices",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-IOT-DEV-004",
+      "milestone": "v3.0"
     },
     {
       "id": "field-service",
@@ -3134,7 +3702,9 @@
       "phase": 3,
       "parent": "core",
       "x": 800,
-      "y": 200
+      "y": 200,
+      "code": "IS-FS",
+      "milestone": "v3.0"
     },
     {
       "id": "field-service-tasks",
@@ -3145,7 +3715,9 @@
       "phase": 3,
       "parent": "field-service",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FS-TSK",
+      "milestone": "v3.0"
     },
     {
       "id": "field-service-tasks-mobile",
@@ -3156,7 +3728,9 @@
       "phase": 3,
       "parent": "field-service-tasks",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FS-TSK-001",
+      "milestone": "v3.0"
     },
     {
       "id": "field-service-tasks-map",
@@ -3167,7 +3741,9 @@
       "phase": 3,
       "parent": "field-service-tasks",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FS-TSK-002",
+      "milestone": "v3.0"
     },
     {
       "id": "field-service-worksheets",
@@ -3178,7 +3754,9 @@
       "phase": 3,
       "parent": "field-service",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FS-WKS",
+      "milestone": "v3.0"
     },
     {
       "id": "field-service-worksheets-custom",
@@ -3189,7 +3767,9 @@
       "phase": 3,
       "parent": "field-service-worksheets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FS-WKS-001",
+      "milestone": "v3.0"
     },
     {
       "id": "field-service-worksheets-invoicing",
@@ -3200,7 +3780,9 @@
       "phase": 3,
       "parent": "field-service-worksheets",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-FS-WKS-002",
+      "milestone": "v3.0"
     },
     {
       "id": "plm",
@@ -3211,7 +3793,9 @@
       "phase": 3,
       "parent": "core",
       "x": 800,
-      "y": -500
+      "y": -500,
+      "code": "IS-PLM",
+      "milestone": "v3.0"
     },
     {
       "id": "plm-eco",
@@ -3222,7 +3806,9 @@
       "phase": 3,
       "parent": "plm",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PLM-ECO",
+      "milestone": "v3.0"
     },
     {
       "id": "plm-eco-orders",
@@ -3233,7 +3819,9 @@
       "phase": 3,
       "parent": "plm-eco",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PLM-ECO-001",
+      "milestone": "v3.0"
     },
     {
       "id": "plm-eco-versioning",
@@ -3244,7 +3832,9 @@
       "phase": 3,
       "parent": "plm-eco",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-PLM-ECO-002",
+      "milestone": "v3.0"
     },
     {
       "id": "chat-messaging-threads",
@@ -3255,7 +3845,9 @@
       "phase": 1,
       "parent": "chat-messaging",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-MSG-004",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-messaging-rich",
@@ -3266,7 +3858,9 @@
       "phase": 1,
       "parent": "chat-messaging",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-MSG-005",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-messaging-translation",
@@ -3277,7 +3871,9 @@
       "phase": 2,
       "parent": "chat-messaging",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-MSG-006",
+      "milestone": "v2.0"
     },
     {
       "id": "chat-search",
@@ -3288,7 +3884,9 @@
       "phase": 1,
       "parent": "chat",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-SCH",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-search-global",
@@ -3299,7 +3897,9 @@
       "phase": 1,
       "parent": "chat-search",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-SCH-001",
+      "milestone": "v1.0"
     },
     {
       "id": "chat-bots",
@@ -3310,7 +3910,9 @@
       "phase": 2,
       "parent": "chat",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-BOT",
+      "milestone": "v2.0"
     },
     {
       "id": "chat-bots-bots",
@@ -3321,7 +3923,9 @@
       "phase": 2,
       "parent": "chat-bots",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-BOT-001",
+      "milestone": "v2.0"
     },
     {
       "id": "chat-bots-cards",
@@ -3332,7 +3936,9 @@
       "phase": 2,
       "parent": "chat-bots",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-CHAT-BOT-002",
+      "milestone": "v2.0"
     },
     {
       "id": "documents-collab",
@@ -3343,7 +3949,9 @@
       "phase": 1,
       "parent": "documents",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-COL",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-collab-editing",
@@ -3354,7 +3962,9 @@
       "phase": 1,
       "parent": "documents-collab",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-COL-001",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-collab-sheets",
@@ -3365,7 +3975,9 @@
       "phase": 1,
       "parent": "documents-collab",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-COL-002",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-collab-mindmap",
@@ -3376,7 +3988,9 @@
       "phase": 1,
       "parent": "documents-collab",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-COL-003",
+      "milestone": "v1.0"
     },
     {
       "id": "documents-collab-comments",
@@ -3387,7 +4001,9 @@
       "phase": 1,
       "parent": "documents-collab",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-DOC-COL-004",
+      "milestone": "v1.0"
     },
     {
       "id": "meetings-video-screen",
@@ -3398,7 +4014,9 @@
       "phase": 2,
       "parent": "meetings-video",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-VID-003",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-video-collab",
@@ -3409,7 +4027,9 @@
       "phase": 2,
       "parent": "meetings-video",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-VID-004",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-video-translation",
@@ -3420,7 +4040,9 @@
       "phase": 3,
       "parent": "meetings-video",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-VID-005",
+      "milestone": "v3.0"
     },
     {
       "id": "meetings-minutes",
@@ -3431,7 +4053,9 @@
       "phase": 2,
       "parent": "meetings",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-MIN",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-minutes-transcription",
@@ -3442,7 +4066,9 @@
       "phase": 2,
       "parent": "meetings-minutes",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-MIN-001",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-minutes-summary",
@@ -3453,7 +4079,9 @@
       "phase": 2,
       "parent": "meetings-minutes",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-MIN-002",
+      "milestone": "v2.0"
     },
     {
       "id": "meetings-minutes-search",
@@ -3464,7 +4092,9 @@
       "phase": 2,
       "parent": "meetings-minutes",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-MTG-MIN-003",
+      "milestone": "v2.0"
     },
     {
       "id": "email-client-chat-bridge",
@@ -3475,7 +4105,9 @@
       "phase": 2,
       "parent": "email-client",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CLI-004",
+      "milestone": "v2.0"
     },
     {
       "id": "email-client-domain",
@@ -3486,7 +4118,9 @@
       "phase": 2,
       "parent": "email-client",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-EMAIL-CLI-005",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-wiki",
@@ -3497,7 +4131,9 @@
       "phase": 2,
       "parent": "knowledge",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-WKI",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-wiki-spaces",
@@ -3508,7 +4144,9 @@
       "phase": 2,
       "parent": "knowledge-wiki",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-WKI-001",
+      "milestone": "v2.0"
     },
     {
       "id": "knowledge-wiki-embed",
@@ -3519,7 +4157,9 @@
       "phase": 2,
       "parent": "knowledge-wiki",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-KMS-WKI-002",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-base",
@@ -3530,7 +4170,9 @@
       "phase": 2,
       "parent": "workflow",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-BAS",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-base-databases",
@@ -3541,7 +4183,9 @@
       "phase": 2,
       "parent": "workflow-base",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-BAS-001",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-base-views",
@@ -3552,7 +4196,9 @@
       "phase": 2,
       "parent": "workflow-base",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-BAS-002",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-base-forms",
@@ -3563,7 +4209,9 @@
       "phase": 2,
       "parent": "workflow-base",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-BAS-003",
+      "milestone": "v2.0"
     },
     {
       "id": "workflow-base-dashboards",
@@ -3574,7 +4222,9 @@
       "phase": 2,
       "parent": "workflow-base",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-WF-BAS-004",
+      "milestone": "v2.0"
     },
     {
       "id": "okr",
@@ -3585,7 +4235,9 @@
       "phase": 2,
       "parent": "core",
       "x": -650,
-      "y": 600
+      "y": 600,
+      "code": "IS-OKR",
+      "milestone": "v2.0"
     },
     {
       "id": "okr-goals",
@@ -3596,7 +4248,9 @@
       "phase": 2,
       "parent": "okr",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OKR-GOL",
+      "milestone": "v2.0"
     },
     {
       "id": "okr-goals-company",
@@ -3607,7 +4261,9 @@
       "phase": 2,
       "parent": "okr-goals",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OKR-GOL-001",
+      "milestone": "v2.0"
     },
     {
       "id": "okr-goals-team",
@@ -3618,7 +4274,9 @@
       "phase": 2,
       "parent": "okr-goals",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OKR-GOL-002",
+      "milestone": "v2.0"
     },
     {
       "id": "okr-goals-individual",
@@ -3629,7 +4287,9 @@
       "phase": 2,
       "parent": "okr-goals",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OKR-GOL-003",
+      "milestone": "v2.0"
     },
     {
       "id": "okr-tracking",
@@ -3640,7 +4300,9 @@
       "phase": 2,
       "parent": "okr",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OKR-TRK",
+      "milestone": "v2.0"
     },
     {
       "id": "okr-tracking-progress",
@@ -3651,7 +4313,9 @@
       "phase": 2,
       "parent": "okr-tracking",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OKR-TRK-001",
+      "milestone": "v2.0"
     },
     {
       "id": "okr-tracking-alignment",
@@ -3662,7 +4326,9 @@
       "phase": 2,
       "parent": "okr-tracking",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-OKR-TRK-002",
+      "milestone": "v2.0"
     },
     {
       "id": "ai-platform",
@@ -3673,7 +4339,9 @@
       "phase": 3,
       "parent": "core",
       "x": -800,
-      "y": -200
+      "y": -200,
+      "code": "IS-AIP",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-platform-search",
@@ -3684,7 +4352,9 @@
       "phase": 3,
       "parent": "ai-platform",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIP-SCH",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-platform-search-semantic",
@@ -3695,7 +4365,9 @@
       "phase": 3,
       "parent": "ai-platform-search",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIP-SCH-001",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-platform-translation",
@@ -3706,7 +4378,9 @@
       "phase": 3,
       "parent": "ai-platform",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIP-TRL",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-platform-translation-chat",
@@ -3717,7 +4391,9 @@
       "phase": 3,
       "parent": "ai-platform-translation",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIP-TRL-001",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-platform-translation-docs",
@@ -3728,7 +4404,9 @@
       "phase": 3,
       "parent": "ai-platform-translation",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIP-TRL-002",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-platform-fields",
@@ -3739,7 +4417,9 @@
       "phase": 3,
       "parent": "ai-platform",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIP-FLD",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-platform-fields-extract",
@@ -3750,7 +4430,9 @@
       "phase": 3,
       "parent": "ai-platform-fields",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIP-FLD-001",
+      "milestone": "v3.0"
     },
     {
       "id": "ai-platform-fields-summarize",
@@ -3761,7 +4443,9 @@
       "phase": 3,
       "parent": "ai-platform-fields",
       "x": 0,
-      "y": 0
+      "y": 0,
+      "code": "IS-AIP-FLD-002",
+      "milestone": "v3.0"
     }
   ]
 }
