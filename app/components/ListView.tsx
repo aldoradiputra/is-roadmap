@@ -31,11 +31,14 @@ const STATUS_STYLES: Record<string, { background: string; color: string }> = {
 
 type Props = {
   nodes: Node[]
+  allNodes: Node[]
   selected: Node | null
   onSelect: (node: Node) => void
+  isFiltering: boolean
 }
 
-export default function ListView({ nodes, selected, onSelect }: Props) {
+export default function ListView({ nodes, selected, onSelect, isFiltering }: Props) {
+  const nodeSet = new Set(nodes.map(n => n.id))
   const byParent = (parentId: string, type?: string) =>
     nodes.filter(n => n.parent === parentId && (type ? n.type === type : true))
 
@@ -44,6 +47,14 @@ export default function ListView({ nodes, selected, onSelect }: Props) {
 
   const phaseOrder = [1, 2, 3]
   const modulesByPhase = (phase: number) => modules.filter(m => m.phase === phase)
+
+  if (nodes.length === 0) {
+    return (
+      <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <span style={{ color: 'var(--muted)', fontSize: 14 }}>No results match your filters.</span>
+      </div>
+    )
+  }
 
   return (
     <div style={{ flex: 1, overflowY: 'auto', padding: '24px 32px' }}>
@@ -106,6 +117,16 @@ export default function ListView({ nodes, selected, onSelect }: Props) {
                     <span style={{ fontWeight: 700, fontSize: 14, color: PHASE_COLORS[phase], flex: 1 }}>
                       {module.label}
                     </span>
+                    {module.code && (
+                      <span style={{ fontSize: 10, color: PHASE_COLORS[phase], opacity: 0.7, fontFamily: 'monospace', marginRight: 4 }}>
+                        {module.code}
+                      </span>
+                    )}
+                    {module.milestone && (
+                      <span style={{ fontSize: 10, color: 'var(--muted)', marginRight: 6 }}>
+                        {module.milestone}
+                      </span>
+                    )}
                     <StatusBadge status={module.status} />
                   </button>
 
@@ -114,6 +135,7 @@ export default function ListView({ nodes, selected, onSelect }: Props) {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: 12, paddingLeft: 16 }}>
                       {apps.map(app => {
                         const features = byParent(app.id)
+                        const visibleFeatures = features.filter(f => nodeSet.has(f.id))
                         return (
                           <div key={app.id}>
                             {/* App row */}
@@ -124,7 +146,7 @@ export default function ListView({ nodes, selected, onSelect }: Props) {
                                 alignItems: 'center',
                                 gap: 8,
                                 width: '100%',
-                                background: selected?.id === app.id ? PHASE_BG[phase] : 'transparent',
+                                background: selected?.id === app.id ? PHASE_BG[app.phase] : 'transparent',
                                 border: 'none',
                                 padding: '5px 8px',
                                 borderRadius: 6,
@@ -136,11 +158,16 @@ export default function ListView({ nodes, selected, onSelect }: Props) {
                               <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--slate)', flex: 1 }}>
                                 {app.label}
                               </span>
+                              {app.code && (
+                                <span style={{ fontSize: 10, color: 'var(--muted)', fontFamily: 'monospace', marginRight: 4 }}>
+                                  {app.code}
+                                </span>
+                              )}
                               <StatusBadge status={app.status} />
                             </button>
 
                             {/* Feature rows */}
-                            {features.map(feature => (
+                            {visibleFeatures.map(feature => (
                               <FeatureRow key={feature.id} node={feature} selected={selected} onSelect={onSelect} indent={1} />
                             ))}
                           </div>
@@ -219,9 +246,11 @@ function FeatureRow({ node, selected, onSelect, indent }: {
       <span style={{ fontSize: 13, color: 'var(--slate)', flex: 1 }}>
         {node.label}
       </span>
-      <span style={{ fontSize: 11, color: 'var(--muted)', whiteSpace: 'nowrap' }}>
-        {PHASE_LABELS[node.phase]}
-      </span>
+      {node.code && (
+        <span style={{ fontSize: 10, color: 'var(--muted)', fontFamily: 'monospace' }}>
+          {node.code}
+        </span>
+      )}
       <StatusBadge status={node.status} />
     </button>
   )
