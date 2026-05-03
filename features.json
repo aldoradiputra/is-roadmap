@@ -1,0 +1,225 @@
+{
+  "version": "0.1",
+  "lastUpdated": "2026-04-29",
+  "nodes": [
+    {
+      "id": "core",
+      "label": "Indonesia System",
+      "description": "National corporate OS for Indonesia",
+      "type": "root",
+      "status": "planned",
+      "phase": 0,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "hr",
+      "label": "HR & Employees",
+      "description": "Employee management, attendance, payroll, BPJS & Ketenagakerjaan integration",
+      "type": "module",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": -420,
+      "y": -220
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Accounting",
+      "description": "Chart of accounts, journals, financial reports, e-SPT tax integration",
+      "type": "module",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": -140,
+      "y": -320
+    },
+    {
+      "id": "crm",
+      "label": "CRM",
+      "description": "Sales pipeline, contacts, activities, deal tracking",
+      "type": "module",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": 140,
+      "y": -320
+    },
+    {
+      "id": "procurement",
+      "label": "Procurement",
+      "description": "Purchase orders, vendor management, approval workflows",
+      "type": "module",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": 420,
+      "y": -220
+    },
+    {
+      "id": "inventory",
+      "label": "Inventory",
+      "description": "Stock management, warehouses, FIFO/LIFO, stock opname",
+      "type": "module",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": 500,
+      "y": 0
+    },
+    {
+      "id": "projects",
+      "label": "Projects & Tasks",
+      "description": "Project management, milestones, Gantt, time tracking",
+      "type": "module",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": 420,
+      "y": 220
+    },
+    {
+      "id": "documents",
+      "label": "Documents & Contracts",
+      "description": "Document management, e-signature, AI-generated contract templates",
+      "type": "module",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": 140,
+      "y": 320
+    },
+    {
+      "id": "chat",
+      "label": "Instant Chat",
+      "description": "Internal communication integrated within the system",
+      "type": "module",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": -140,
+      "y": 320
+    },
+    {
+      "id": "email",
+      "label": "Email & Workspace",
+      "description": "Email client and collaborative workspace in one platform",
+      "type": "module",
+      "status": "planned",
+      "phase": 2,
+      "parent": "core",
+      "x": -420,
+      "y": 220
+    },
+    {
+      "id": "meetings",
+      "label": "Meetings & Video",
+      "description": "Roll call, agenda, Google Meet integration",
+      "type": "module",
+      "status": "planned",
+      "phase": 2,
+      "parent": "core",
+      "x": -500,
+      "y": 0
+    },
+    {
+      "id": "omnichannel",
+      "label": "Omnichannel",
+      "description": "WhatsApp, email, chat in one unified inbox",
+      "type": "module",
+      "status": "planned",
+      "phase": 2,
+      "parent": "core",
+      "x": -560,
+      "y": -280
+    },
+    {
+      "id": "workflow",
+      "label": "Workflow Automation",
+      "description": "Rule-based automation and AI triggers across modules",
+      "type": "module",
+      "status": "planned",
+      "phase": 2,
+      "parent": "core",
+      "x": 560,
+      "y": -280
+    },
+    {
+      "id": "ai-marketing",
+      "label": "AI Marketing",
+      "description": "AI-powered campaign management, curated per industry vertical",
+      "type": "module",
+      "status": "planned",
+      "phase": 3,
+      "parent": "core",
+      "x": 0,
+      "y": -500
+    },
+    {
+      "id": "public-sector",
+      "label": "Public Sector",
+      "description": "National identifiers (NIK, Passport), BUMN and government compliance",
+      "type": "module",
+      "status": "planned",
+      "phase": 3,
+      "parent": "core",
+      "x": 560,
+      "y": 280
+    },
+    {
+      "id": "b2b-network",
+      "label": "B2B Connectivity",
+      "description": "Shakehand between instances, sync orders, invoices and payments between companies",
+      "type": "module",
+      "status": "planned",
+      "phase": 3,
+      "parent": "core",
+      "x": -560,
+      "y": 280
+    },
+    {
+      "id": "search",
+      "label": "Instant Search",
+      "description": "Odoo-style — type to navigate to any menu, record, or action instantly",
+      "type": "feature",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": -200,
+      "y": -120
+    },
+    {
+      "id": "access-rights",
+      "label": "AI Access Rights",
+      "description": "Configure permissions via settings or describe in natural language to AI",
+      "type": "feature",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": 200,
+      "y": -120
+    },
+    {
+      "id": "update-system",
+      "label": "Update System",
+      "description": "Push global updates to all instances or inject to specific instances (cloud or on-premise)",
+      "type": "infrastructure",
+      "status": "planned",
+      "phase": 1,
+      "parent": "core",
+      "x": 200,
+      "y": 120
+    },
+    {
+      "id": "roadmap-map",
+      "label": "Roadmap Mind Map",
+      "description": "Interactive public roadmap with real-time progress, version borders, certifications",
+      "type": "feature",
+      "status": "in-progress",
+      "phase": 1,
+      "parent": "core",
+      "x": -200,
+      "y": 120
+    }
+  ]
+}
