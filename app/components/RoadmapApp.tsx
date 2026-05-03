@@ -8,7 +8,7 @@ export type Node = {
   id: string
   label: string
   description: string
-  type: 'root' | 'module' | 'feature' | 'infrastructure'
+  type: 'root' | 'module' | 'app' | 'feature' | 'infrastructure'
   status: 'planned' | 'in-progress' | 'done'
   phase: number
   parent?: string

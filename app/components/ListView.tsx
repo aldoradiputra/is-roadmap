@@ -2,13 +2,6 @@
 
 import { Node } from './RoadmapApp'
 
-const PHASE_LABELS: Record<number, string> = {
-  0: 'Core',
-  1: 'Phase 1',
-  2: 'Phase 2',
-  3: 'Phase 3',
-}
-
 const PHASE_COLORS: Record<number, string> = {
   0: 'var(--navy)',
   1: 'var(--indigo)',
@@ -16,8 +9,22 @@ const PHASE_COLORS: Record<number, string> = {
   3: 'var(--amber)',
 }
 
+const PHASE_BG: Record<number, string> = {
+  0: 'var(--indigo-light)',
+  1: 'var(--indigo-light)',
+  2: 'var(--teal-light)',
+  3: 'var(--amber-light)',
+}
+
+const PHASE_LABELS: Record<number, string> = {
+  0: 'Core',
+  1: 'Phase 1',
+  2: 'Phase 2',
+  3: 'Phase 3',
+}
+
 const STATUS_STYLES: Record<string, { background: string; color: string }> = {
-  'planned':     { background: 'var(--border)', color: 'var(--slate)' },
+  'planned':     { background: 'var(--border)', color: 'var(--muted)' },
   'in-progress': { background: 'var(--indigo-light)', color: 'var(--indigo)' },
   'done':        { background: 'var(--teal-light)', color: 'var(--teal)' },
 }
@@ -29,100 +36,209 @@ type Props = {
 }
 
 export default function ListView({ nodes, selected, onSelect }: Props) {
-  const phases = [0, 1, 2, 3]
-  const byPhase = (phase: number) => nodes.filter(n => n.phase === phase)
+  const byParent = (parentId: string, type?: string) =>
+    nodes.filter(n => n.parent === parentId && (type ? n.type === type : true))
+
+  const modules = nodes.filter(n => n.type === 'module' && n.parent === 'core')
+  const platformNodes = nodes.filter(n => n.parent === 'core' && n.type !== 'module' && n.type !== 'root')
+
+  const phaseOrder = [1, 2, 3]
+  const modulesByPhase = (phase: number) => modules.filter(m => m.phase === phase)
 
   return (
     <div style={{ flex: 1, overflowY: 'auto', padding: '24px 32px' }}>
-      {phases.map(phase => {
-        const group = byPhase(phase)
-        if (group.length === 0) return null
+
+      {/* Platform section */}
+      {platformNodes.length > 0 && (
+        <section style={{ marginBottom: 40 }}>
+          <SectionHeader label="Platform" color="var(--navy)" />
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+            {platformNodes.map(node => (
+              <FeatureRow key={node.id} node={node} selected={selected} onSelect={onSelect} indent={0} />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Modules grouped by phase */}
+      {phaseOrder.map(phase => {
+        const phaseModules = modulesByPhase(phase)
+        if (phaseModules.length === 0) return null
         return (
-          <section key={phase} style={{ marginBottom: 36 }}>
+          <div key={phase}>
             <div style={{
-              display: 'flex',
-              alignItems: 'center',
-              gap: 10,
-              marginBottom: 12,
+              fontSize: 11,
+              fontWeight: 700,
+              letterSpacing: '1px',
+              textTransform: 'uppercase',
+              color: PHASE_COLORS[phase],
+              marginBottom: 16,
+              marginTop: phase > 1 ? 40 : 0,
+              paddingLeft: 2,
             }}>
-              <span style={{
-                width: 10,
-                height: 10,
-                borderRadius: '50%',
-                background: PHASE_COLORS[phase],
-                flexShrink: 0,
-              }} />
-              <h2 style={{
-                fontSize: 12,
-                fontWeight: 700,
-                letterSpacing: '0.8px',
-                textTransform: 'uppercase',
-                color: PHASE_COLORS[phase],
-              }}>
-                {PHASE_LABELS[phase]}
-              </h2>
+              {PHASE_LABELS[phase]}
             </div>
 
-            <div style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-              {group.map(node => {
-                const isSelected = selected?.id === node.id
-                const statusStyle = STATUS_STYLES[node.status] ?? STATUS_STYLES['planned']
-                return (
+            {phaseModules.map(module => {
+              const apps = byParent(module.id, 'app')
+              const directFeatures = nodes.filter(n => n.parent === module.id && n.type !== 'app')
+
+              return (
+                <section key={module.id} style={{ marginBottom: 28 }}>
+                  {/* Module header */}
                   <button
-                    key={node.id}
-                    onClick={() => onSelect(node)}
+                    onClick={() => onSelect(module)}
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      gap: 12,
-                      padding: '12px 16px',
-                      borderRadius: 'var(--radius)',
-                      border: isSelected
-                        ? `1.5px solid ${PHASE_COLORS[phase]}`
-                        : '1.5px solid var(--border)',
-                      background: isSelected ? 'var(--indigo-light)' : 'var(--white)',
+                      gap: 10,
+                      width: '100%',
+                      background: selected?.id === module.id ? PHASE_BG[phase] : 'transparent',
+                      border: 'none',
+                      borderLeft: `3px solid ${PHASE_COLORS[phase]}`,
+                      borderRadius: '0 6px 6px 0',
+                      padding: '8px 12px',
                       cursor: 'pointer',
                       textAlign: 'left',
-                      width: '100%',
-                      transition: 'border-color 0.15s, background 0.15s',
+                      marginBottom: 8,
                     }}
                   >
-                    <div style={{ flex: 1, minWidth: 0 }}>
-                      <div style={{
-                        fontSize: 14,
-                        fontWeight: 600,
-                        color: 'var(--slate)',
-                        marginBottom: 2,
-                      }}>
-                        {node.label}
-                      </div>
-                      <div style={{
-                        fontSize: 13,
-                        color: 'var(--muted)',
-                        whiteSpace: 'nowrap',
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                      }}>
-                        {node.description}
-                      </div>
-                    </div>
-                    <span style={{
-                      fontSize: 11,
-                      fontWeight: 600,
-                      padding: '3px 8px',
-                      borderRadius: 4,
-                      whiteSpace: 'nowrap',
-                      ...statusStyle,
-                    }}>
-                      {node.status}
+                    <span style={{ fontWeight: 700, fontSize: 14, color: PHASE_COLORS[phase], flex: 1 }}>
+                      {module.label}
                     </span>
+                    <StatusBadge status={module.status} />
                   </button>
-                )
-              })}
-            </div>
-          </section>
+
+                  {/* Apps and their features */}
+                  {apps.length > 0 && (
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: 12, paddingLeft: 16 }}>
+                      {apps.map(app => {
+                        const features = byParent(app.id)
+                        return (
+                          <div key={app.id}>
+                            {/* App row */}
+                            <button
+                              onClick={() => onSelect(app)}
+                              style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: 8,
+                                width: '100%',
+                                background: selected?.id === app.id ? PHASE_BG[phase] : 'transparent',
+                                border: 'none',
+                                padding: '5px 8px',
+                                borderRadius: 6,
+                                cursor: 'pointer',
+                                textAlign: 'left',
+                                marginBottom: 4,
+                              }}
+                            >
+                              <span style={{ fontSize: 13, fontWeight: 600, color: 'var(--slate)', flex: 1 }}>
+                                {app.label}
+                              </span>
+                              <StatusBadge status={app.status} />
+                            </button>
+
+                            {/* Feature rows */}
+                            {features.map(feature => (
+                              <FeatureRow key={feature.id} node={feature} selected={selected} onSelect={onSelect} indent={1} />
+                            ))}
+                          </div>
+                        )
+                      })}
+                    </div>
+                  )}
+
+                  {/* Direct features (no app parent) */}
+                  {directFeatures.map(feature => (
+                    <FeatureRow key={feature.id} node={feature} selected={selected} onSelect={onSelect} indent={0} />
+                  ))}
+                </section>
+              )
+            })}
+          </div>
         )
       })}
     </div>
+  )
+}
+
+function SectionHeader({ label, color }: { label: string; color: string }) {
+  return (
+    <div style={{
+      fontSize: 11,
+      fontWeight: 700,
+      letterSpacing: '1px',
+      textTransform: 'uppercase',
+      color,
+      marginBottom: 12,
+      paddingLeft: 2,
+    }}>
+      {label}
+    </div>
+  )
+}
+
+function FeatureRow({ node, selected, onSelect, indent }: {
+  node: Node
+  selected: Node | null
+  onSelect: (node: Node) => void
+  indent: number
+}) {
+  const isSelected = selected?.id === node.id
+  const phaseColor = PHASE_COLORS[node.phase]
+
+  return (
+    <button
+      onClick={() => onSelect(node)}
+      style={{
+        display: 'flex',
+        alignItems: 'center',
+        gap: 10,
+        width: '100%',
+        paddingLeft: 16 + indent * 16,
+        paddingRight: 8,
+        paddingTop: 5,
+        paddingBottom: 5,
+        background: isSelected ? 'var(--indigo-light)' : 'transparent',
+        border: 'none',
+        borderRadius: 6,
+        cursor: 'pointer',
+        textAlign: 'left',
+        marginBottom: 2,
+      }}
+    >
+      <span style={{
+        width: 6,
+        height: 6,
+        borderRadius: '50%',
+        background: phaseColor,
+        flexShrink: 0,
+        opacity: 0.6,
+      }} />
+      <span style={{ fontSize: 13, color: 'var(--slate)', flex: 1 }}>
+        {node.label}
+      </span>
+      <span style={{ fontSize: 11, color: 'var(--muted)', whiteSpace: 'nowrap' }}>
+        {PHASE_LABELS[node.phase]}
+      </span>
+      <StatusBadge status={node.status} />
+    </button>
+  )
+}
+
+function StatusBadge({ status }: { status: string }) {
+  const style = STATUS_STYLES[status] ?? STATUS_STYLES['planned']
+  return (
+    <span style={{
+      fontSize: 10,
+      fontWeight: 600,
+      padding: '2px 7px',
+      borderRadius: 4,
+      whiteSpace: 'nowrap',
+      ...style,
+    }}>
+      {status}
+    </span>
   )
 }
